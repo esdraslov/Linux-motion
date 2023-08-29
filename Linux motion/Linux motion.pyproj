@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="kind.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Linux_motion.py" />
     <Compile Include="pymotion.py">
       <SubType>Code</SubType>
